@@ -551,7 +551,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 900;
-		color: #a5c4fa;
+		color: #6f84a8;
 		letter-spacing: -0.0325em;
 	}
 
@@ -2311,5 +2311,7 @@ input, select, textarea {
 
 		}
 		.blacktext{
-			color: #a5c4fa !important;
+			color: #6f84a8 !important;
+			font-weight: 20px;
+
 		}
