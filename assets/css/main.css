@@ -460,7 +460,7 @@ input, select, textarea {
 			-webkit-animation: overlay-hide 1.5s ease-in forwards !important;
 			-ms-animation: overlay-hide 1.5s ease-in forwards !important;
 			animation: overlay-hide 1.5s ease-in forwards !important;
-			background: #ffffff;
+			background: #ffac5e;
 			content: '';
 			display: block;
 			height: 100%;
@@ -504,7 +504,7 @@ input, select, textarea {
 		font-weight: 300;
 		font-size: 18pt;
 		line-height: 1.75em;
-		color: #39454b;
+		color: #a5c4fa;
 		letter-spacing: 0.025em;
 	}
 
@@ -551,12 +551,12 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 900;
-		color: inherit;
+		color: #a5c4fa;
 		letter-spacing: -0.0325em;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
+			color: #a5c4fa;
 			text-decoration: none;
 		}
 
@@ -621,8 +621,8 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #ffffff;
-		color: #39454b;
+		/*background: #ffffff;*/
+		color: #a5c4fa;
 		padding: 2em;
 	}
 
@@ -686,7 +686,7 @@ input, select, textarea {
 			height: 5em;
 			line-height: 4.5em;
 			padding: 0;
-			background-image: url("images/dark-arrow.svg");
+			/*background-image: url("images/dark-arrow.svg");*/
 			background-position: center center;
 			background-repeat: no-repeat;
 			text-indent: -10em;
@@ -736,7 +736,7 @@ input, select, textarea {
 		.button.style2,
 		button.style2 {
 			background-color: transparent;
-			border: solid 2px #e5e6e7;
+			border: solid 0px #e5e6e7;
 			color: inherit;
 		}
 
@@ -761,7 +761,7 @@ input, select, textarea {
 			input[type="reset"].style2.down,
 			.button.style2.down,
 			button.style2.down {
-				background-image: url("images/arrow.svg");
+				/*background-image: url("images/arrow.svg");*/
 			}
 
 /* Form */
@@ -1235,7 +1235,7 @@ input, select, textarea {
 		-ms-box-sizing: content-box;
 		box-sizing: content-box;
 		background: #fff;
-		padding-bottom: 3em;
+		/*padding-bottom: 3em;*/
 		box-shadow: 0 0.1em 0.15em 0 rgba(0, 0, 0, 0.15);
 	}
 
@@ -1278,7 +1278,7 @@ input, select, textarea {
 			position: absolute;
 			bottom: 0;
 			left: 0;
-			background: #ffffff;
+			background: #000000;
 			width: 100%;
 			height: 3em;
 			line-height: 2.8em;
@@ -1832,9 +1832,9 @@ input, select, textarea {
 		left: 0;
 		top: 0;
 		width: 100%;
-		background: rgba(255, 255, 255, 0.95);
+		background: rgba(255, 255, 255, 0.1);
 		height: 3em;
-		line-height: 3em;
+		
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
 	}
 
@@ -2071,7 +2071,7 @@ input, select, textarea {
 				}
 
 				.main.dark .button.style2.down {
-					background-image: url("images/dark-arrow.svg");
+					/*background-image: url("images/dark-arrow.svg");*/
 				}
 
 		body.is-touch .main {
@@ -2309,4 +2309,7 @@ input, select, textarea {
 				padding: 1em 1em 2em 1em;
 			}
 
+		}
+		.blacktext{
+			color: #a5c4fa !important;
 		}
